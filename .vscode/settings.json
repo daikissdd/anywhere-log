@@ -1,0 +1,172 @@
+{
+	"editor.fontFamily": "",
+	"editor.fontSize": 0,
+	"editor.lineHeight": 0,
+	"editor.lineNumbers": true,
+	"editor.glyphMargin": false,
+	"editor.rulers": [],
+	"editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?",
+	"editor.tabSize": 4,
+	"editor.insertSpaces": false,
+	"editor.detectIndentation": false,
+	"editor.roundedSelection": true,
+	"editor.scrollBeyondLastLine": true,
+	"editor.wrappingColumn": 300,
+	"editor.wrappingIndent": "same",
+	"editor.mouseWheelScrollSensitivity": 1,
+	"editor.quickSuggestions": true,
+	"editor.quickSuggestionsDelay": 10,
+	"editor.autoClosingBrackets": true,
+	"editor.formatOnType": false,
+	"editor.suggestOnTriggerCharacters": true,
+	"editor.acceptSuggestionOnEnter": true,
+	"editor.selectionHighlight": true,
+	"editor.overviewRulerLanes": 3,
+	"editor.cursorBlinking": "blink",
+	"editor.cursorStyle": "line",
+	"editor.fontLigatures": false,
+	"editor.hideCursorInOverviewRuler": false,
+	"editor.renderWhitespace": false,
+	"editor.referenceInfos": true,
+	"editor.folding": true,
+	"diffEditor.renderSideBySide": true,
+	"diffEditor.ignoreTrimWhitespace": true,
+
+	//-------- Window configuration --------
+	"window.openFilesInNewWindow": true,
+	"window.reopenFolders": "one",
+	"window.zoomLevel": 0,
+
+	//-------- Files configuration --------
+	"files.exclude": {
+		"**/.git": true,
+		"**/.DS_Store": true
+	},
+
+	// Configure file associations to languages (e.g. "*.extension": "html"). These have precedence over the default associations of the languages installed.
+	"files.associations": {},
+	"files.encoding": "utf8",
+	"files.eol": "\n",
+	"files.trimTrailingWhitespace": false,
+	"files.autoSave": "afterDelay",
+	"files.autoSaveDelay": 10000,
+	"files.watcherExclude": {
+		"**/.git/objects/**": true,
+		"**/node_modules/**": true
+	},
+
+	//-------- File Explorer configuration --------
+	"explorer.workingFiles.maxVisible": 9,
+	"explorer.workingFiles.dynamicHeight": true,
+
+	//-------- HTTP configuration --------
+	"http.proxy": "",
+	"http.proxyStrictSSL": true,
+
+	//-------- Search configuration --------
+	"search.exclude": {
+		"**/node_modules": true,
+		"**/bower_components": true
+	},
+
+	//-------- Update configuration --------
+	"update.channel": "default",
+
+	//-------- Git configuration --------
+	"git.enabled": true,
+	"git.path": null,
+	"git.autofetch": true,
+
+
+	//-------- HTML configuration --------
+	"html.format.wrapLineLength": 120,
+	"html.format.unformatted": null,
+	"html.format.indentInnerHtml": false,
+	"html.format.preserveNewLines": true,
+	"html.format.maxPreserveNewLines": null,
+	"html.format.indentHandlebars": false,
+	"html.format.endWithNewline": false,
+	"html.format.extraLiners": null,
+
+	//-------- JSON configuration --------
+	"json.schemas": [],
+
+	//-------- Markdown preview configuration --------
+	"markdown.styles": ["https://github.com/markdowncss/retro/blob/master/css/retro.css"],
+	"telemetry.enableTelemetry": true,
+	"telemetry.enableCrashReporter": true,
+
+	//-------- CSS configuration --------
+	"css.validate": true,
+	"css.lint.compatibleVendorPrefixes": "ignore",
+	"css.lint.vendorPrefix": "warning",
+	"css.lint.duplicateProperties": "ignore",
+	"css.lint.emptyRules": "warning",
+	"css.lint.importStatement": "ignore",
+	"css.lint.boxModel": "ignore",
+	"css.lint.universalSelector": "ignore",
+	"css.lint.zeroUnits": "ignore",
+	"css.lint.fontFaceProperties": "warning",
+	"css.lint.hexColorLength": "error",
+	"css.lint.argumentsInColorFunction": "error",
+	"css.lint.unknownProperties": "warning",
+	"css.lint.ieHack": "ignore",
+	"css.lint.unknownVendorSpecificProperties": "ignore",
+	"css.lint.propertyIgnoredDueToDisplay": "warning",
+	"css.lint.important": "ignore",
+	"css.lint.float": "ignore",
+	"css.lint.idSelector": "ignore",
+
+	//-------- Sass configuration --------
+	"sass.validate": true,
+	"sass.lint.compatibleVendorPrefixes": "ignore",
+	"sass.lint.vendorPrefix": "warning",
+	"sass.lint.duplicateProperties": "ignore",
+	"sass.lint.emptyRules": "warning",
+	"sass.lint.importStatement": "ignore",
+	"sass.lint.boxModel": "ignore",
+	"sass.lint.universalSelector": "ignore",
+	"sass.lint.zeroUnits": "ignore",
+	"sass.lint.fontFaceProperties": "warning",
+	"sass.lint.hexColorLength": "error",
+	"sass.lint.argumentsInColorFunction": "error",
+	"sass.lint.unknownProperties": "warning",
+	"sass.lint.ieHack": "ignore",
+	"sass.lint.unknownVendorSpecificProperties": "ignore",
+	"sass.lint.propertyIgnoredDueToDisplay": "warning",
+	"sass.lint.important": "ignore",
+	"sass.lint.float": "ignore",
+	"sass.lint.idSelector": "ignore",
+
+	//-------- TypeScript configuration --------
+	"typescript.tsdk": null,
+	"typescript.useCodeSnippetsOnMethodSuggest": true,
+	"typescript.validate.enable": true,
+	"typescript.format.insertSpaceAfterCommaDelimiter": true,
+	"typescript.format.insertSpaceAfterSemicolonInForStatements": true,
+	"typescript.format.insertSpaceBeforeAndAfterBinaryOperators": true,
+	"typescript.format.insertSpaceAfterKeywordsInControlFlowStatements": true,
+	"typescript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": true,
+	"typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": false,
+	"typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": false,
+	"typescript.format.placeOpenBraceOnNewLineForFunctions": false,
+	"typescript.format.placeOpenBraceOnNewLineForControlBlocks": false,
+	
+	//-------- JS Configuration options --------
+	"javascript.validate.enable": true,
+	"javascript.format.insertSpaceAfterCommaDelimiter": true,
+	"javascript.format.insertSpaceAfterSemicolonInForStatements": true,
+	"javascript.format.insertSpaceBeforeAndAfterBinaryOperators": true,
+	"javascript.format.insertSpaceAfterKeywordsInControlFlowStatements": true,
+	"javascript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": true,
+	"javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": false,
+	"javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": false,
+	"javascript.format.placeOpenBraceOnNewLineForFunctions": false,
+	"javascript.format.placeOpenBraceOnNewLineForControlBlocks": false,
+
+	//-------- PHP Configuration options --------
+	"php.validate.enable": true,
+	"php.validate.executablePath": null,
+	"php.validate.run": "onSave"
+
+}
