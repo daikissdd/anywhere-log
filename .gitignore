@@ -1,6 +1,9 @@
 # Mac
 .DS_Store
 
+# Only local
+demo-local.js
+
 # Logs
 logs
 *.log
