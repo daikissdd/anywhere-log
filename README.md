@@ -80,3 +80,18 @@ To send data straight to the output stream (without `nextTick()`), use `.sync()`
 ```js
 var logger = require( "anywhere-log" ).sync();
 ```
+
+### Using Papertrail
+
+```js
+const logger = require('./lib').ptLog;
+const pt = logger.pt(host, port);
+const l = logger.create([pt]);
+
+l.info('hello log');
+l.info('logging before I close');
+
+pt.on('connect', () => {
+	setTimeout(() => l.close(), 500);
+});
+```

@@ -1,5 +1,6 @@
-// Grab module name automatically
-log = require( __dirname + "/lib/log.js" ).module();
+'use strict';
+
+let log = require('./lib').fmLog.module();
 log.error( "ouch" );
 
 // Basic logging
@@ -9,7 +10,6 @@ log.critical( new Error( "Logging an Error instance." ) );
 
 // Logging with source trace
 log.withSource();
-log.verbose( "Logging WITH source tracing" );
 log.notice( "You'll never know where this was logged from!" );
 
 // No prefix
